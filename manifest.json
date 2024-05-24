@@ -1,0 +1,18 @@
+
+{
+  "manifest_version": 3,
+  "name": "Bulk URL Downloader",
+  "version": "1.0",
+  "description": "Download files from a list of URLs.",
+  "permissions": [
+    "downloads",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
